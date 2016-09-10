@@ -1,0 +1,11 @@
+{
+  "schedule": "R\/2015-09-10T10:10:00.000Z\/PT30S",
+  "name": "python_read_process",
+  "container": {
+    "type": "DOCKER",
+    "image": "namkunghyeon/python_process_read"
+  },
+  "cpus": "1",
+  "mem": "256",
+  "command": "python readProcess.py"
+}
